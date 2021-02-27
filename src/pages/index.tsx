@@ -1,6 +1,12 @@
-import Head from 'next/head';
+import Head from '../components/Head';
 import styles from '../assets//styles/components/Home.module.scss';
 
 export default function Home() {
-  return <h1>Hello World!</h1>;
+  return (
+    <>
+      <Head title="Titulo da página" />
+
+      <h1>Hello World!</h1>
+    </>
+  );
 }
